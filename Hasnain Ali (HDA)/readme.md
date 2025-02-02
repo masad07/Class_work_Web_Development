@@ -25,6 +25,21 @@ In this repository, I'll be submitting:
 
 ## 🌟 Notable Projects
 
+- **[Portfolio Site](https://my-portfolio-next-js-7olh.vercel.app/)**  
+  A personal portfolio built with Next.js showcasing my projects and professional details.
+
+- **[Ecommerce Store](https://github.com/HasnainCodeHub/Ecommerce-Store)**  
+  An ecommerce platform using Sanity.io for product management and Next.js for front-end display.  
+  Features: Product listings, cart functionality, and checkout process.
+
+- **[Calculator Agent](https://hasnain-calculator-agent.streamlit.app/)**  
+  An AI-powered calculator agent that performs various mathematical operations and provides results instantly.  
+  Features: Real-time computation and user-friendly interface.
+
+- **[Helping Assistant](https://hasnain-s-assistant.streamlit.app/)**  
+  An AI assistant designed to help with daily tasks, offering a range of useful features for productivity.  
+  Features: Task management, reminders, and quick help.
+
 - **Tic Tac Toe Game** with creative UI and result tracking features  
 - **Facebook Signup Page Clone** using POST API with age restrictions  
 - **RAG Project** utilizing Pinecone and Google Gemini  
