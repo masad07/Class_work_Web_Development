@@ -1,2 +1,0 @@
-def first_day():
-  print("This is the first day of web development.")
