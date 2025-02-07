@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables in html</title>
+  </head>
+  <body>
+    <h1 align="center">Tables</h1>
+    <table
+      border="1"
+      align="center"
+      width="80%"
+      cellpadding="10px"
+      cellspacing="8px"
+    >
+      <caption>
+        Alphabets
+      </caption>
+      <tr height="80px" valign="Top">
+        <td>A</td>
+        <td>B</td>
+      </tr>
+      <tr height="80px" valign="Top">
+        <td>C</td>
+        <td>D</td>
+      </tr>
+      <tr height="80px" valign="Top">
+        <td>E</td>
+        <td>F</td>
+      </tr>
+    </table>
+    <h2>Collspan Example</h2>
+    <table border="1" align="center" width="80%">
+      <tr height="80px" valign="Top">
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr height="80px" valign="Top">
+        <td colspan="2">3</td>
+        <!-- This will span 2 columns -->
+      </tr>
+      <tr height="80px" valign="Top">
+        <td>5</td>
+        <td>6</td>
+      </tr>
+    </table>
+    <h2>Rowspan Example</h2>
+    <table border="1" align="center" width="80%">
+      <tr height="80px" valign="Top">
+        <td rowspan="2">1</td>
+        <!-- This cell now spans two rows -->
+        <td>2</td>
+      </tr>
+      <tr height="80px" valign="Top">
+        <td>4</td>
+      </tr>
+    </table>
+  </body>
+</html>
