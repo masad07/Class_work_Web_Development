@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Information </b></legend>
+            
+            <label for="user">USERNAME</label>
+            <input type="text" name="username" id="user" required><br><br>
+            
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" placeholder="Jhon123@gmail.com" id="email" required ><br><br>
+            
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" required><br><br>
+            
+            <label for="confirm_password">CONFIRM YOUR PASSWORD</label>
+            <input type="password" name="confirm_password" id="confirm_password" required><br><br>
+            
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other"><label for="other">Other</label><br><br>
+            
+            <label for="birthdate">Enter your birth date</label>
+            <input type="date" name="birthdate" id="birthdate" required><br><br>
+            
+            <label for="country">Select your country</label><br>
+            <select id="country" name="country" required>
+                <optgroup label="Asia">
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                    <option value="South Korea">South Korea</option>
+                    <option value="Thailand">Thailand</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                </optgroup>
+            </select><br><br>
+            
+            <label for="address">Enter your address</label>
+            <input type="text" name="address" id="address" required><br><br>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"><br><br>
+            
+            <label for="website">Personal Website</label>
+            <input type="url" name="website" id="website" placeholder="https://example.com"><br><br>
+            
+            <label for="bio">Short Bio</label><br>
+            <textarea name="bio" id="bio" rows="4" cols="50" placeholder="Tell us about yourself..."></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

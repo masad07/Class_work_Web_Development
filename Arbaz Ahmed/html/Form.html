@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <style>
+        input:focus {
+            background-color: lightyellow;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <form>
+            <fieldset style="width: 300px;">
+                <legend><b>User Personal Information</b></legend>
+
+                <div align="left">
+
+                    <label for="name">Enter your Full Name:</label><br>
+                    <input style="width: 300px;" id="name" name="name" required><br><br>
+
+                    <label for="email">Enter your Email:</label><br>
+                    <input style="width: 300px;" placeholder="example123@gmail.com" type="email" id="email" name="email"
+                        required><br><br>
+
+                    <label for="password">Enter your Password:</label><br>
+                    <input style="width: 300px;" type="password" id="password" name="password" required><br><br>
+
+                    <label for="confirmPassword">Confirm your Password:</label><br>
+                    <input style="width: 300px;" type="password" id="confirmPassword" name="confirmPassword"
+                        required><br><br>
+
+                    <!-- enter your gender -->
+                    <label for="gender">Enter your Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="femael">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br><br>
+
+
+                    <label for="dob">Enter your Date of Birth:</label><br>
+                    <input style="width: 300px;" type="date" id="dob" name="dob" required min="2006-01-01"><br><br>
+                    <label for="address">Enter your Address:</label>
+
+
+                    <input type="address" style="width: 300px;" type="text" id="address" name="address" required
+                        placeholder="house number-building-city"><br><br>
+
+                    <input style="background-color: rgb(135, 135, 246);" type="submit" value="Submit">
+                    <input style="background-color: rgb(241, 118, 118);" type="reset" value="Reset">
+
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>

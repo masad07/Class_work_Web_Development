@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <h2 align="center">HTML Assignment</h2>
+
+<form align="left">
+    <fieldset>
+<legend><h3>User Personal Information</h3></legend>
+
+    <label for="username" >Enter your full name</label> <br>
+     <input type="text" id="" name=""> <br></br>
+
+     <label for="email" >Enter your Email</label> <br>
+     <input type="email" id="" name=""> <br></br>
+
+     <label for="username" >Enter your password</label> <br>
+     <input type="password" id="" name=""> <br></br>
+
+     <label for="username" >Confirm your password</label> <br>
+     <input type="password" id="" name=""> <br></br>
+    <!-- gender -->
+     <label for="Gender" >Your Gender</label> <br>
+     <input type="radio" id="Male" name="Gender"> 
+     <label for="Male" >Male</label> 
+
+     <input type="radio" id="Female" name="Gender">
+     <label for="Female" >Female</label> <br></br>
+
+     <label for="date"> Enter your Date of Birth </label> <br>
+     <input type="date" id="" name=""> <br></br>
+
+     <input type="submit" name="submit" id="">
+
+
+
+
+</form>
+</body>
+</html>
