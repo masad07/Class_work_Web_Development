@@ -1,0 +1,63 @@
+.border {
+  /* border: 2px solid red;  Short way to write border */
+  border-top: 3px dashed blue;
+  border-bottom: 5px double green;
+  border-left: 4px dotted orange;
+  border-right: 6px solid black;
+}
+
+.outline {
+  outline: 3px solid blue;
+  outline-offset: 5px;
+}
+
+.border-outline {
+  border: 2px solid red;
+  outline: 3px solid blue;
+  outline-offset: 1px;
+}
+
+#para1 {
+  color: chartreuse;
+  font-size: 15px;
+}
+#para2 {
+  color: crimson;
+  font-size: 20px;
+}
+
+html {
+  font-size: 8px;
+}
+.parent {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 90, 136);
+  font-size: 10px;
+}
+.child-px {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(0, 255, 0);
+  font-size: 15px;
+}
+
+.child-em {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(0, 255, 0);
+  font-size: 2em;
+}
+
+.child-rem {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(0, 255, 0);
+  font-size: 3rem;
+}
+
+.box-percent {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(0, 188, 0);
+}
