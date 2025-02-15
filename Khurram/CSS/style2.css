@@ -1,6 +1,6 @@
 #Container {
   border: 2px solid red;
-  border-radius: 5%; /* 5% of the width/height */
+  border-radius: 1%; /* 5% of the width/height */
   outline: 6px solid blue;
   outline-offset: 2px;
 }
