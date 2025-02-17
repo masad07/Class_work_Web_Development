@@ -14,7 +14,7 @@
 }
 
 .ht{
-    border: 2px solid rgb(60, 12, 192);
+    border: 2px dashed rgb(60, 12, 192);
     padding: 10px;
     height: 50%;
     height: 20%;
@@ -37,7 +37,7 @@
 }
 
 .box{
-    border: 2px solid rgb(92, 113, 30);
+    border: 2px double rgb(92, 113, 30);
     margin: 2px ;
     height: 200px;
     width: 200px;
