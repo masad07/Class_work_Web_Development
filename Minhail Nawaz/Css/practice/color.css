@@ -1,0 +1,30 @@
+#container{
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: red; */
+    border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid yellow;
+
+    outline:2px solid black;
+    outline-offset: 2px;
+}
+
+
+.para{
+    color: #780d0d;
+}
+
+.para{
+    color: red;
+}
+
+.para{
+    color: rgb(255, 0, 0);
+}
+
+.para-border{
+    color: rgba(111, 109, 109,0.5);
+}
+
