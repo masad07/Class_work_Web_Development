@@ -1,0 +1,53 @@
+<!-- /* What is CSS stands for?
+CSS stands for Cascading Style Sheets. */
+/* What is the purpose of CSS?
+The purpose of CSS is to control the layout and appearance of web pages. */
+/* What is the difference between CSS and HTML?
+CSS is used for styling and layout, while HTML is used for structure and content. */
+
+/* TYPES OF CSS */
+/* What are the different types of CSS?
+There are three main types of CSS:
+1. Internal CSS: This is used to define styles within an HTML document.
+2. External CSS: This is used to define styles in a separate file.
+3. Inline CSS: This is used to define styles directly within an HTML element. */ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css First Clas</title>
+
+    <style>
+      #inpage {
+        color: green;
+      }
+
+      h5 {
+        color: blue;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <!-- External CSS -->
+  </head>
+  <body>
+    <h1>Hello from CSS</h1>
+
+    <h2>TYPES OF CSS</h2>
+
+    <!-- INLINE CSS -->
+    <p style="color: blue; font-size: 20px">This is an inlin CSS</p>
+
+    <!-- INTERNAL CSS -->
+    <p id="inpage">This is an internal CSS</p>
+    <h4 class="inpage">INernal LInk</h4>
+
+    <h5 id="h5">hi</h5>
+
+    <!-- External CSS -->
+    <h4 class="third">External</h4>
+    <button class="btn">submit</button>
+    <button class="btn">reset</button>
+  </body>
+</html>

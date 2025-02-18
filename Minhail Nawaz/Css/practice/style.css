@@ -1,0 +1,14 @@
+.inpage{
+    color: rgb(19, 10, 10);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    
+    padding: 14px 20px;
+
+}
