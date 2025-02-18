@@ -1,3 +1,4 @@
+/* This line has external Css Third Prefrence */
 h1 {
     color: red;
     font-size: 50px;
@@ -9,7 +10,7 @@ h1 .heading {
     text-align: center;
 }
 
-h2 #heading2 {
+#heading2 {
     color: green;
     font-size: 20px;
     text-align: center;
