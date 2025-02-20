@@ -11,3 +11,17 @@
   padding: 20px;
   box-sizing: border-box; /* Fix the widht and height and the padding has no effect */
 }
+
+.data {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  overflow: auto; /* Scroll bar will appear if the content is larger than the box or if not scroll bar is not visible */
+}
+
+.data1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  overflow: hidden; /* Content will be hidden if it is larger than the box */
+}
