@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 1000px;
+    width: 1000px;
+    background-color: red;
+    font-size: 20px;
+}
+
+/* .parent{
+    height: 1000%;
+    width: 100%;
+    background-color: red;
+
+
+} */
+
+.child{
+
+    height: 30%;
+    width: 30%;
+    background-color: blue;
+    font-size: 1em;
+}
+
+.child2{
+    height: 20%;
+    width: 20%;
+    background-color: yellow;
+    
+
+}
