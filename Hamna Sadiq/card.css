@@ -1,0 +1,82 @@
+body {
+    background-color: #0d1a2d;  /* Dark blue background */
+    color: #ffffff;  /* White text */
+    font-family: Arial, sans-serif; /* Clean font */
+    
+    display:flex;  /* Enables flexbox */
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;  /* Centers content vertically */
+    
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.card {
+    background-color: #15263f;  /* Dark blue card background */
+    width: 300px;  /* Sets the width of the card */
+    height: 500px; /* Sets the height of the card (Change as needed) */
+    padding: 20px;  /* Adds space inside the card */
+    border-radius: 15px;  /* Rounds the corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+    text-align: center; /* Centers the text */
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.card_image {
+    width: 100%;  /* Makes image fit the card width */
+    border-radius: 10px; /* Rounds the corners of the image */
+}
+
+.line {
+   
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2); /* Light Transparent Line */
+}
+.profile {
+    display: flex; /* Enables flexbox */
+    gap: 10px; 
+    cursor: pointer; /* Make it look clickable */
+    transition: color 1s ease-in-out;/* Space between image and text */
+    
+
+}
+.profile:hover  {
+    color: cyan;
+    
+}
+
+.avatar {
+    margin-top: 10px;
+    width: 35px;  /* Adjust size */
+    height: 35px;
+    border-radius: 100%; /* Makes the image round */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: White border */
+    cursor: pointer; /* Make it look clickable */
+    transition: color 1s ease-in-out;
+
+}
+.avatar:hover {
+    border-color: #ff6600;
+    transform: scale(1.1);
+}
+span {
+    font-size: 14px;  /* Adjust size */
+    color: rgba(255, 255, 255, 0.7); /* Light text color */
+}
+h2 {
+    text-align: left;
+    padding-left: 0px;
+     /* Optional for spacing */
+   
+}
+h2:hover {
+    color: cyan;
+}   
+.card_text{
+    text-align: left;
+    padding-left: 0px;
+    color: rgba(255, 255, 255, 0.7) /* Optional for spacing */
+    
+}
