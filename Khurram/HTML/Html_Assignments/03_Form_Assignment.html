@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form practice</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>User Information</legend>
+        <br />
+        <div>
+          <label for="name">Enter Your full Name</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Muhammad Khurram"
+            size="50px"
+          />
+        </div>
+
+        <br />
+
+        <label for="email">Enter Your Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example1234@gmail.com"
+          size="50"
+        />
+        <br />
+        <br />
+
+        <label for="password">Enter your password</label><br />
+        <input type="password" id="password" name="password" size="50" />
+        <br />
+        <br />
+
+        <label for="confirm_password">Confirm your password</label><br />
+        <input
+          type="password"
+          id="confirm_password"
+          name="confirm_password"
+          size="50"
+        />
+        <br />
+        <br />
+
+        Enter your gender
+        <br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" id="Others" value="others" />
+        <label for="Others">Others</label>
+
+        <br />
+        <br />
+
+        <label for="dob">Enter your Date of Birth</label>
+        <br />
+        <input type="date" id="dob" name="dob" style="width: 41%" />
+        <br />
+        <br />
+
+        <label for="country">Select Your Country</label><br />
+        <select id="country" name="country" style="width: 41%">
+          <optgroup label="Asia">
+            <option value="pakistan" selected>Pakistan</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+          </optgroup>
+          <optgroup label="Europe">
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+            <option value="uk">United Kingdom</option>
+          </optgroup>
+          <optgroup label="North America">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="mexico">Mexico</option>
+          </optgroup>
+        </select>
+
+        <br />
+        <br />
+
+        <label for="address">Enter your Address:</label> <br />
+        <textarea id="address" name="address" rows="3" cols="50">
+e.g. Street 147 Newyork</textarea
+        >
+        <br />
+        <br />
+
+        <input type="submit" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
